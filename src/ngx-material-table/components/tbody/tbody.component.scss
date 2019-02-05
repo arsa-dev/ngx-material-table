@@ -1,0 +1,12 @@
+:host {
+  .ngx-material-row {
+    &.selected {
+      background: rgba(0, 0, 0, 0.05);
+    }
+    .ngx-material-actions {
+      &.ngx-material-action-multiple-select {
+        text-align: center;
+      }
+    }
+  }
+}

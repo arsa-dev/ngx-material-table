@@ -1,0 +1,1 @@
+import { NgxMaterialTableModule } from 'ngx-material-table';

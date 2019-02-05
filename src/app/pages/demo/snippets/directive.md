@@ -1,0 +1,13 @@
+// ...
+
+@NgModule({
+  imports: [
+    // ...
+    
+    NgxMaterialTableModule,
+    
+    // ...
+  ],
+  declarations: [ ... ]
+})
+// ...
