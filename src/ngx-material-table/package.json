@@ -1,7 +1,7 @@
 {
   "name": "ngx-material-table",
-  "version": "1.3.5",
-  "description": "Angular Smart Table",
+  "version": "1.0.0-alfa1",
+  "description": "Angular Material Table",
   "main": "./bundles/table.umd.js",
   "module": "./index.js",
   "typings": "./index.d.ts",
@@ -11,12 +11,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+http://akveo.github.io/ngx-material-table.git"
+    "url": "http://arsasm.github.io/ngx-material-table.git"
   },
   "bugs": {
-    "url": "http://akveo.github.io/ngx-material-table/issues"
+    "url": "http://arsasm.github.io/ngx-material-table/issues"
   },
-  "homepage": "http://akveo.github.io/ngx-material-table/#readme",
+  "homepage": "http://arsasm.github.io/ngx-material-table/#readme",
   "keywords": [
     "angular",
     "typescript",

@@ -1,1 +1,1 @@
-import { Ng2SmartTableModule } from 'ngx-material-table';
+import { NgxMaterialTableModule } from 'ngx-material-table';

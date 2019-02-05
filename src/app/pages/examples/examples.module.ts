@@ -5,7 +5,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 
 import { SharedModule } from '../../shared/shared.module';
-import { Ng2SmartTableModule } from '../../../ngx-material-table';
+import { NgxMaterialTableModule } from '../../../ngx-material-table';
 import { routes } from './examples.routes';
 import { ExamplesComponent } from './examples.component';
 import { AdvancedExampleFiltersComponent } from './filter/advanced-example-filters.component';
@@ -56,7 +56,7 @@ const EXAMPLES_COMPONENTS = [
     FormsModule,
     ReactiveFormsModule,
     RouterModule.forChild(routes),
-    Ng2SmartTableModule,
+    NgxMaterialTableModule,
     SharedModule,
   ],
   entryComponents: [

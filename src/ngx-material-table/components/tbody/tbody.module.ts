@@ -4,7 +4,7 @@ import { FormsModule } from '@angular/forms';
 
 import { CellModule } from '../cell/cell.module';
 
-import { Ng2SmartTableTbodyComponent } from './tbody.component';
+import { NgxMaterialTableTbodyComponent } from './tbody.component';
 import { TbodyCreateCancelComponent } from './cells/create-cancel.component';
 import { TbodyEditDeleteComponent } from './cells/edit-delete.component';
 import { TbodyCustomComponent } from './cells/custom.component';
@@ -13,7 +13,7 @@ const TBODY_COMPONENTS = [
   TbodyCreateCancelComponent,
   TbodyEditDeleteComponent,
   TbodyCustomComponent,
-  Ng2SmartTableTbodyComponent
+  NgxMaterialTableTbodyComponent
 ];
 
 @NgModule({

@@ -10,7 +10,7 @@ import {Column} from "../../lib/data-set/column";
   styleUrls: ['./tbody.component.scss'],
   templateUrl: './tbody.component.html',
 })
-export class Ng2SmartTableTbodyComponent {
+export class NgxMaterialTableTbodyComponent {
 
   @Input() grid: Grid;
   @Input() source: DataSource;

@@ -1,6 +1,6 @@
 import { browser, element, by } from 'protractor';
 
-export class Ng2SmartTableDemoPage {
+export class NgxMaterialTableDemoPage {
   navigateTo() {
     return browser.get('/');
   }

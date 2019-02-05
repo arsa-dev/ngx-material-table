@@ -11,7 +11,7 @@ import { LocalDataSource } from './lib/data-source/local/local.data-source';
   styleUrls: ['./ngx-material-table.component.scss'],
   templateUrl: './ngx-material-table.component.html',
 })
-export class Ng2SmartTableComponent implements OnChanges {
+export class NgxMaterialTableComponent implements OnChanges {
 
   @Input() source: any;
   @Input() settings: Object = {};

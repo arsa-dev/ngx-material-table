@@ -7,7 +7,7 @@ import { DataSource } from '../../lib/data-source/data-source';
     selector: '[ng2-st-thead]',
     templateUrl: './thead.component.html',
 })
-export class Ng2SmartTableTheadComponent implements OnChanges {
+export class NgxMaterialTableTheadComponent implements OnChanges {
 
     @Input() grid: Grid;
     @Input() source: DataSource;

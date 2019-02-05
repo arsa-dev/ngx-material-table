@@ -4,7 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
 
-import { Ng2SmartTableModule } from '../ngx-material-table';
+import { NgxMaterialTableModule } from '../ngx-material-table';
 
 import { PagesModule } from './pages/pages.module';
 
@@ -24,7 +24,7 @@ import { ScrollPositionDirective } from './theme/directives/scrollPosition.direc
     FormsModule,
     HttpClientModule,
     RouterModule.forRoot(routes, { useHash: true }),
-    Ng2SmartTableModule,
+    NgxMaterialTableModule,
     PagesModule,
   ],
   providers: [],

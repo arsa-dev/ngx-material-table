@@ -1,10 +1,10 @@
-import { Ng2SmartTableDemoPage } from './app.po';
+import { NgxMaterialTableDemoPage } from './app.po';
 
 describe('ngx-material-table-demo App', () => {
-  let page: Ng2SmartTableDemoPage;
+  let page: NgxMaterialTableDemoPage;
 
   beforeEach(() => {
-    page = new Ng2SmartTableDemoPage();
+    page = new NgxMaterialTableDemoPage();
   });
 
   it('should display message saying app works', () => {

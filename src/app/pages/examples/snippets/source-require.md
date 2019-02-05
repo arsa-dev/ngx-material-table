@@ -1,1 +1,1 @@
-import { Ng2SmartTableModule, LocalDataSource } from 'ngx-material-table';
+import { NgxMaterialTableModule, LocalDataSource } from 'ngx-material-table';

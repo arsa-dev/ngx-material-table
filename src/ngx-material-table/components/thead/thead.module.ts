@@ -5,7 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { FilterModule } from '../filter/filter.module';
 import { CellModule } from '../cell/cell.module';
 
-import { Ng2SmartTableTheadComponent } from './thead.component';
+import { NgxMaterialTableTheadComponent } from './thead.component';
 import { ActionsComponent } from './cells/actions.component';
 import { ActionsTitleComponent } from './cells/actions-title.component';
 import { AddButtonComponent } from './cells/add-button.component';
@@ -26,7 +26,7 @@ const THEAD_COMPONENTS = [
   TheadFitlersRowComponent,
   TheadFormRowComponent,
   TheadTitlesRowComponent,
-  Ng2SmartTableTheadComponent,
+  NgxMaterialTableTheadComponent,
 ];
 
 @NgModule({
