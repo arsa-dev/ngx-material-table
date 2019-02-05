@@ -23,7 +23,7 @@
     "build:prod": "npm run build -- --prod",
     "build:prod:aot": "npm run build:prod -- --aot",
     "build:ci": "npm run build:prod && npm run build:prod:aot && npm run build:release",
-    "build:ghpages": "npm run build:prod:aot -- --base-href \"https://akveo.github.io/ngx-material-table/\" && ngh",
+    "build:ghpages": "npm run build:prod:aot -- --base-href \"https://arsasm.github.io/ngx-material-table/\" && ngh",
     "build:release": "npm run clean:dist && gulp build:release",
     "test": "ng test",
     "test:coverage": "rimraf coverage && npm run test -- --code-coverage",
