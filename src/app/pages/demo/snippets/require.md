@@ -1,0 +1,1 @@
+import { Ng2SmartTableModule } from 'ngx-material-table';
