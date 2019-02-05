@@ -6,9 +6,9 @@ import { Row } from '../../../lib/data-set/row';
 @Component({
   selector: 'ng2-st-tbody-create-cancel',
   template: `
-    <a href="#" class="ng2-smart-action ng2-smart-action-edit-save"
+    <a href="#" class="ngx-material-action ngx-material-action-edit-save"
         [innerHTML]="saveButtonContent" (click)="onSave($event)"></a>
-    <a href="#" class="ng2-smart-action ng2-smart-action-edit-cancel"
+    <a href="#" class="ngx-material-action ngx-material-action-edit-cancel"
         [innerHTML]="cancelButtonContent" (click)="onCancelEdit($event)"></a>
   `,
 })

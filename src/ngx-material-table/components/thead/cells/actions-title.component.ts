@@ -5,7 +5,7 @@ import { Grid } from '../../../lib/grid';
 @Component({
   selector: '[ng2-st-actions-title]',
   template: `
-    <div class="ng2-smart-title">{{ actionsColumnTitle }}</div>
+    <div class="ngx-material-title">{{ actionsColumnTitle }}</div>
   `,
 })
 export class ActionsTitleComponent implements AfterViewInit, OnChanges {
@@ -18,7 +18,7 @@ export class ActionsTitleComponent implements AfterViewInit, OnChanges {
   }
 
   ngAfterViewInit() {
-    this.ref.nativeElement.classList.add('ng2-smart-actions');
+    this.ref.nativeElement.classList.add('ngx-material-actions');
   }
 
   ngOnChanges() {

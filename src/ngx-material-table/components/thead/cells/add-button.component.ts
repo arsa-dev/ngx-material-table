@@ -6,7 +6,7 @@ import { DataSource } from '../../../lib/data-source/data-source';
 @Component({
   selector: '[ng2-st-add-button]',
   template: `
-    <a *ngIf="isActionAdd" href="#" class="ng2-smart-action ng2-smart-action-add-add"
+    <a *ngIf="isActionAdd" href="#" class="ngx-material-action ngx-material-action-add-add"
         [innerHTML]="addNewButtonContent" (click)="onAdd($event)"></a>
   `,
 })
@@ -23,7 +23,7 @@ export class AddButtonComponent implements AfterViewInit, OnChanges {
   }
 
   ngAfterViewInit() {
-    this.ref.nativeElement.classList.add('ng2-smart-actions-title', 'ng2-smart-actions-title-add');
+    this.ref.nativeElement.classList.add('ngx-material-actions-title', 'ngx-material-actions-title-add');
   }
 
   ngOnChanges() {

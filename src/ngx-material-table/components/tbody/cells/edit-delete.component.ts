@@ -8,9 +8,9 @@ import { DataSource } from '../../../lib/data-source/data-source';
   selector: 'ng2-st-tbody-edit-delete',
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `
-    <a href="#" *ngIf="isActionEdit" class="ng2-smart-action ng2-smart-action-edit-edit"
+    <a href="#" *ngIf="isActionEdit" class="ngx-material-action ngx-material-action-edit-edit"
         [innerHTML]="editRowButtonContent" (click)="onEdit($event)"></a>
-    <a href="#" *ngIf="isActionDelete" class="ng2-smart-action ng2-smart-action-delete-delete"
+    <a href="#" *ngIf="isActionDelete" class="ngx-material-action ngx-material-action-delete-delete"
         [innerHTML]="deleteRowButtonContent" (click)="onDelete($event)"></a>
   `,
 })

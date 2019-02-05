@@ -8,7 +8,7 @@ import { Subscription } from 'rxjs';
   selector: 'ngx-material-table-filter',
   styleUrls: ['./filter.component.scss'],
   template: `
-    <div class="ng2-smart-filter" *ngIf="column.isFilterable" [ngSwitch]="column.getFilterType()">
+    <div class="ngx-material-filter" *ngIf="column.isFilterable" [ngSwitch]="column.getFilterType()">
       <select-filter *ngSwitchCase="'list'"
                      [query]="query"
                      [ngClass]="inputClass"
@@ -21,12 +21,6 @@ import { Subscription } from 'rxjs';
                        [column]="column"
                        (filter)="onFilter($event)">
       </checkbox-filter>
-      <completer-filter *ngSwitchCase="'completer'"
-                        [query]="query"
-                        [ngClass]="inputClass"
-                        [column]="column"
-                        (filter)="onFilter($event)">
-      </completer-filter>
       <input-filter *ngSwitchDefault
                     [query]="query"
                     [ngClass]="inputClass"

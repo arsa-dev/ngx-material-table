@@ -130,7 +130,6 @@ const ROLLUP_GLOBALS = {
   'rxjs/operators': 'Rx.operators',
 
   // 3rd party dependencies
-  'ng2-completer': 'ng2completer',
   'lodash': 'lodash',
 };
 

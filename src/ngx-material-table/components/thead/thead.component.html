@@ -1,5 +1,5 @@
 <tr ng2-st-thead-titles-row *ngIf="!isHideHeader"
-                            class="ng2-smart-titles"
+                            class="ngx-material-titles"
                             [grid]="grid"
                             [isAllSelected]="isAllSelected"
                             [source]="source"
@@ -8,7 +8,7 @@
 </tr>
 
 <tr ng2-st-thead-filters-row *ngIf="!isHideSubHeader"
-                              class="ng2-smart-filters"
+                              class="ngx-material-filters"
                               [grid]="grid"
                               [source]="source"
                               (create)="create.emit($event)"

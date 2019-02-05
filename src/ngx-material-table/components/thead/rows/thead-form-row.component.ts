@@ -7,7 +7,7 @@ import { Row } from '../../../lib/data-set/row';
   selector: '[ng2-st-thead-form-row]',
   template: `
       <td *ngIf=""></td>
-      <td  *ngIf="showActionColumnLeft"  class="ng2-smart-actions">
+      <td  *ngIf="showActionColumnLeft"  class="ngx-material-actions">
         <ng2-st-actions [grid]="grid" (create)="onCreate($event)"></ng2-st-actions>
       </td>
       <td *ngFor="let cell of grid.getNewRow().getCells()">
@@ -20,7 +20,7 @@ import { Row } from '../../../lib/data-set/row';
                               (edited)="onCreate($event)">
         </ngx-material-table-cell>
       </td>
-      <td  *ngIf="showActionColumnRight"  class="ng2-smart-actions">
+      <td  *ngIf="showActionColumnRight"  class="ngx-material-actions">
         <ng2-st-actions [grid]="grid" (create)="onCreate($event)"></ng2-st-actions>
       </td>
   `,
