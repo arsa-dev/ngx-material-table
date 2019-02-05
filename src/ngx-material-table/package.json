@@ -11,12 +11,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://arsasm.github.io/ngx-material-table.git"
+    "url": "http://github.com/arsasm/ngx-material-table.git"
   },
   "bugs": {
-    "url": "http://arsasm.github.io/ngx-material-table/issues"
+    "url": "http://github.com/arsasm/ngx-material-table/issues"
   },
-  "homepage": "http://arsasm.github.io/ngx-material-table/#readme",
+  "homepage": "http://github.com/arsasm/ngx-material-table/#readme",
   "keywords": [
     "angular",
     "typescript",
