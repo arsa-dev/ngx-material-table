@@ -5,7 +5,7 @@
   "main": "./bundles/table.umd.js",
   "module": "./index.js",
   "typings": "./index.d.ts",
-  "author": "akveo",
+  "author": "arsasm",
   "license": "MIT",
   "scripts": {
   },
@@ -21,14 +21,14 @@
     "angular",
     "typescript",
     "table",
-    "akveo"
+    "arsasm"
   ],
   "dependencies": {
     "lodash": "^4.17.10"
   },
   "peerDependencies": {
-    "@angular/common": "^6.0.1",
-    "@angular/core": "^6.0.1",
-    "@angular/forms": "^6.0.1"
+    "@angular/common": "> 6.0.0 < 8",
+    "@angular/core": "> 6.0.0 < 8",
+    "@angular/forms": "> 6.0.0 < 8"
   }
 }
