@@ -3,13 +3,13 @@
   "version": "1.0.0-alfa3",
   "description": "Angular Material Table",
   "author": "ARSA <arsa@arsahosting.com>",
-  "homepage": "http://arsasm.github.io/ngx-material-table/",
+  "homepage": "http://arsa-dev.github.io/ngx-material-table/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/arsasm/ngx-material-table.git"
+    "url": "https://github.com/arsa-dev/ngx-material-table.git"
   },
   "bugs": {
-    "url": "https://github.com/arsasm/ngx-material-table/issues"
+    "url": "https://github.com/arsa-dev/ngx-material-table/issues"
   },
   "license": "MIT",
   "scripts": {

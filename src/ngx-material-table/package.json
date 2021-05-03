@@ -5,23 +5,22 @@
   "main": "./bundles/table.umd.js",
   "module": "./index.js",
   "typings": "./index.d.ts",
-  "author": "arsasm",
+  "author": "arsa-dev",
   "license": "MIT",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
-    "url": "http://github.com/arsasm/ngx-material-table.git"
+    "url": "http://github.com/arsa-dev/ngx-material-table.git"
   },
   "bugs": {
-    "url": "http://github.com/arsasm/ngx-material-table/issues"
+    "url": "http://github.com/arsa-dev/ngx-material-table/issues"
   },
-  "homepage": "http://github.com/arsasm/ngx-material-table/#readme",
+  "homepage": "http://github.com/arsa-dev/ngx-material-table/#readme",
   "keywords": [
     "angular",
     "typescript",
     "table",
-    "arsasm"
+    "arsa-dev"
   ],
   "dependencies": {
     "lodash": "^4.17.10"
