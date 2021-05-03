@@ -23,7 +23,8 @@
     "arsa-dev"
   ],
   "dependencies": {
-    "lodash": "^4.17.10"
+    "lodash": "^4.17.10",
+    "tslib": "^2.0.0"
   },
   "peerDependencies": {
     "@angular/common": "> 6.0.0 < 9",
