@@ -1,7 +1,8 @@
-import { Component, Output, EventEmitter, Input } from '@angular/core';
+import { Component, Output, EventEmitter, Input, Directive } from '@angular/core';
 
 import { Cell } from '../../../lib/data-set/cell';
 
+@Directive()
 export class EditCellDefault {
 
   @Input() cell: Cell;
