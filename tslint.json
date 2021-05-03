@@ -16,6 +16,9 @@
     "no-arg": true,
     "no-internal-module": true,
     "no-bitwise": true,
+    "deprecation": {
+      "severity": "warning"
+    },
     "no-shadowed-variable": true,
     "no-unused-expression": true,
     "one-line": [true, "check-catch", "check-else", "check-open-brace", "check-whitespace"],
@@ -62,7 +65,6 @@
         }
       }
     ],
-    "no-use-before-declare": true,
     "array-bracket-spacing": [true, "never"],
     "block-spacing": [
       true,
@@ -115,14 +117,14 @@
 
     "directive-selector": [true, "attribute", ["nga", "ngd", "ngt"], "camelCase"],
     "component-selector": [true, "element", ["nga", "ngd", "ngt"], "kebab-case"],
-    "use-input-property-decorator": true,
-    "use-output-property-decorator": true,
-    "use-host-property-decorator": true,
-    "no-attribute-parameter-decorator": true,
+    "no-inputs-metadata-property": true,
+    "no-outputs-metadata-property": true,
+    "no-host-metadata-property": true,
+    "no-attribute-decorator": true,
     "no-input-rename": true,
     "no-output-rename": true,
     "no-forward-ref": true,
-    "use-life-cycle-interface": true,
+    "use-lifecycle-interface": true,
     "use-pipe-transform-interface": true,
     "pipe-naming": [true, "camelCase", ["nga", "ngd", "ngt"]],
     "component-class-suffix": true,

@@ -1,5 +1,4 @@
-import { Subject } from 'rxjs';
-import { Observable } from 'rxjs';
+import { Subject,  Observable } from 'rxjs';
 
 export abstract class DataSource {
 
@@ -124,6 +123,6 @@ export abstract class DataSource {
       paging: this.getPaging(),
       filter: this.getFilter(),
       sort: this.getSort(),
-    }));
+    })).catch(()=>{});
   }
 }

@@ -29,9 +29,9 @@ import { Cell, DefaultEditor, Editor } from '../../../../ngx-material-table';
 })
 export class CustomEditorComponent extends DefaultEditor implements AfterViewInit {
 
-  @ViewChild('name') name: ElementRef;
-  @ViewChild('url') url: ElementRef;
-  @ViewChild('htmlValue') htmlValue: ElementRef;
+  @ViewChild('name', { static: true }) name: ElementRef;
+  @ViewChild('url', { static: true }) url: ElementRef;
+  @ViewChild('htmlValue', { static: true }) htmlValue: ElementRef;
 
   constructor() {
     super();

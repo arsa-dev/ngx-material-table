@@ -1,6 +1,6 @@
 :host {
   .ngx-material-filter {
-    /deep/ {
+    ::ng-deep {
       input,
       select {
         width: 100%;

@@ -17,7 +17,7 @@ export const HTML_MINIFIER_OPTIONS = {
 
 export const TABLE_LICENSE_BANNER = `/**
   * @license ngx-material-table v${TABLE_VERSION}
-  * Copyright (c) 2017 Akveo. https://akveo.github.io/ngx-material-table/
+  * Copyright (c) 2017 ARSA Hosting. https://arsa-dev.github.io/ngx-material-table/
   * License: MIT
   */`;
 
