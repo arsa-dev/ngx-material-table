@@ -1,6 +1,6 @@
 {
   "name": "ngx-material-table",
-  "version": "1.0.0-alfa3",
+  "version": "1.0.0-alfa4",
   "description": "Angular Material Table",
   "main": "./bundles/table.umd.js",
   "module": "./index.js",
@@ -23,11 +23,12 @@
     "arsa-dev"
   ],
   "dependencies": {
-    "lodash": "^4.17.10"
+    "lodash": "^4.17.10",
+    "tslib": "^2.0.0"
   },
   "peerDependencies": {
-    "@angular/common": "> 6.0.0 < 9",
-    "@angular/core": "> 6.0.0 < 9",
-    "@angular/forms": "> 6.0.0 < 9"
+    "@angular/common": "> 6.0.0 < 12",
+    "@angular/core": "> 6.0.0 < 12",
+    "@angular/forms": "> 6.0.0 < 12"
   }
 }

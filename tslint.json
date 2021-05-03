@@ -16,6 +16,9 @@
     "no-arg": true,
     "no-internal-module": true,
     "no-bitwise": true,
+    "deprecation": {
+      "severity": "warning"
+    },
     "no-shadowed-variable": true,
     "no-unused-expression": true,
     "one-line": [true, "check-catch", "check-else", "check-open-brace", "check-whitespace"],
@@ -62,7 +65,6 @@
         }
       }
     ],
-    "no-use-before-declare": true,
     "array-bracket-spacing": [true, "never"],
     "block-spacing": [
       true,
