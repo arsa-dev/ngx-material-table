@@ -1,6 +1,6 @@
 export class LocalFilter {
 
-  protected static FILTER = (value: string, search: string) => {
+  protected static FILTER(value: string, search: string) {
     return value.toString().toLowerCase().includes(search.toString().toLowerCase());
   }
 

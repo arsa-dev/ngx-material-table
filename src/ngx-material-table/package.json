@@ -1,6 +1,6 @@
 {
   "name": "ngx-material-table",
-  "version": "1.0.0-alfa2",
+  "version": "1.0.0-alfa3",
   "description": "Angular Material Table",
   "main": "./bundles/table.umd.js",
   "module": "./index.js",
@@ -27,8 +27,8 @@
     "lodash": "^4.17.10"
   },
   "peerDependencies": {
-    "@angular/common": "> 6.0.0 < 8",
-    "@angular/core": "> 6.0.0 < 8",
-    "@angular/forms": "> 6.0.0 < 8"
+    "@angular/common": "> 6.0.0 < 9",
+    "@angular/core": "> 6.0.0 < 9",
+    "@angular/forms": "> 6.0.0 < 9"
   }
 }

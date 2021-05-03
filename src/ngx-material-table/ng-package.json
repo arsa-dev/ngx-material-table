@@ -1,0 +1,10 @@
+{
+    "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
+    "dest": "../../dist/ngx-material-table",
+    "whitelistedNonPeerDependencies": [
+        "lodash"
+    ],
+    "lib": {
+        "entryFile": "index.ts"
+    }
+}

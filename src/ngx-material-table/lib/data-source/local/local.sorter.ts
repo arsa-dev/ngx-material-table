@@ -1,6 +1,6 @@
 export class LocalSorter {
 
-  protected static COMPARE = (direction: any, a: any, b: any) => {
+  protected static COMPARE(direction: any, a: any, b: any) {
     if (a < b) {
       return -1 * direction;
     }

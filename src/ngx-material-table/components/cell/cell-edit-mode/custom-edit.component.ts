@@ -20,7 +20,7 @@ import { Cell } from '../../../lib/data-set/cell';
 export class CustomEditComponent extends EditCellDefault implements OnChanges, OnDestroy {
 
   customComponent: any;
-  @ViewChild('dynamicTarget', { read: ViewContainerRef }) dynamicTarget: any;
+  @ViewChild('dynamicTarget', { read: ViewContainerRef, static: true }) dynamicTarget: any;
 
   constructor(private resolver: ComponentFactoryResolver) {
     super();

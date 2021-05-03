@@ -9,7 +9,7 @@ import { Column } from '../../../../lib/data-set/column';
   styleUrls: ['./title.component.scss'],
   template: `
     <a href="#" *ngIf="column.isSortable"
-                (click)="_sort($event, column)"
+                (click)="_sort($event)"
                 class="ngx-material-sort-link sort"
                 [ngClass]="currentDirection">
       {{ column.title }}

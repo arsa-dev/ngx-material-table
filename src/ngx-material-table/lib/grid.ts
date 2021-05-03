@@ -1,5 +1,4 @@
-import { Subject } from 'rxjs';
-import { Observable } from 'rxjs';
+import { Subject,  Observable } from 'rxjs';
 import { EventEmitter } from '@angular/core';
 
 import { Deferred, getDeepFromObject } from './helpers';
