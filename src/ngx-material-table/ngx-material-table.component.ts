@@ -26,6 +26,7 @@ export class NgxMaterialTableComponent implements OnChanges {
   @Output() editConfirm = new EventEmitter<any>();
   @Output() createConfirm = new EventEmitter<any>();
   @Output() rowHover: EventEmitter<any> = new EventEmitter<any>();
+  @Output() rowClick: EventEmitter<any> = new EventEmitter<any>();
 
   tableClass: string;
   tableId: string;
@@ -126,6 +127,10 @@ export class NgxMaterialTableComponent implements OnChanges {
 
   onRowHover(row: Row) {
     this.rowHover.emit(row);
+  }
+
+  onRowClick(row: Row) {
+    this.rowClick.emit(row);
   }
 
   multipleSelectRow(row: Row) {

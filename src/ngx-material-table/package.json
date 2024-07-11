@@ -1,6 +1,6 @@
 {
   "name": "ngx-material-table",
-  "version": "1.0.0-alfa4",
+  "version": "1.0.0-alfa5",
   "description": "Angular Material Table",
   "main": "./bundles/table.umd.js",
   "module": "./index.js",

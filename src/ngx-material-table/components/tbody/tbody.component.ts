@@ -28,6 +28,7 @@ export class NgxMaterialTableTbodyComponent {
   @Output() editRowSelect = new EventEmitter<any>();
   @Output() multipleSelectRow = new EventEmitter<any>();
   @Output() rowHover = new EventEmitter<any>();
+  @Output() rowClick = new EventEmitter<any>();
 
   isMultiSelectVisible: boolean;
   showActionColumnLeft: boolean;
